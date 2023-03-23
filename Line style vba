@@ -1,0 +1,4 @@
+Sub Macro1()
+    Worksheets(1).Range("A1").Value = "Dom"
+    Worksheets(1).Range("A1").Borders.LineStyle = xlDouble
+End Sub
